@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\dotNet\\TaskFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|d:\\code\\dotnet\\taskflow\\taskflow\\models\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFBB16F-8337-4F53-A9F1-C642B597EA73}|TaskFlow\\TaskFlow.csproj|solutionrelative:taskflow\\models\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TaskFlow\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TaskFlow\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T17:22:15.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskFlow\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TaskFlow\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAMEBAAAAAAAAAAAAANwBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T17:15:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Program.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Program.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Program.cs",
+              "RelativeToolTip": "TaskFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:02:47.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TaskFlow\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TaskFlow\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T15:58:32.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaskFlow\\Views\\Task\\Create.cshtml",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Task\\Create.cshtml",
+              "RelativeToolTip": "TaskFlow\\Views\\Task\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T15:58:10.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskFlow\\Views\\Task\\Index.cshtml",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "TaskFlow\\Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T15:57:28.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Controllers\\TaskController.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskFlow\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:56:52.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250910155200_CreateTaskTables.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs",
+              "RelativeToolTip": "TaskFlow\\Data\\Migrations\\20250910155200_CreateTaskTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:52:00.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TaskFlow\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:50:51.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Models\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Models\\Entities\\Category.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Models\\Entities\\Category.cs",
+              "RelativeToolTip": "TaskFlow\\Models\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:50:37.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Models\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskFlow\\Models\\Entities\\TaskItem.cs",
+              "ToolTip": "D:\\Code\\dotNet\\TaskFlow\\TaskFlow\\Models\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TaskFlow\\Models\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:50:18.158Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

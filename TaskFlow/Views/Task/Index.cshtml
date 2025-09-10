@@ -1,0 +1,115 @@
+﻿@model IEnumerable<TaskFlow.Models.Entities.TaskItem>
+
+@{
+    ViewData["Title"] = "My Tasks";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>My Tasks</h2>
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Add New Task
+                </a>
+            </div>
+
+            <div class="row">
+                @foreach (var task in Model)
+                {
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title">@task.Title</h5>
+                                    <span class="badge @GetPriorityClass(task.Priority)">
+                                        @GetPriorityText(task.Priority)
+                                    </span>
+                                </div>
+
+                                <p class="card-text">@task.Description</p>
+
+                                @if (task.DueDate.HasValue)
+                                {
+                                    <small class="text-muted">
+                                        <i class="fas fa-calendar"></i>
+                                        Due: @task.DueDate.Value.ToString("MM/dd/yyyy")
+                                    </small>
+                                }
+
+                                <div class="mt-3">
+                                    <div class="btn-group w-100">
+                                        @if (task.Status != 3)
+                                        {
+                                            <button class="btn btn-sm btn-success" onclick="updateStatus(@task.Id, 3)">
+                                                Complete
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <button class="btn btn-sm btn-secondary" onclick="updateStatus(@task.Id, 1)">
+                                                Reopen
+                                            </button>
+                                        }
+
+                                        <form asp-action="Delete" method="post" class="d-inline">
+                                            <input type="hidden" name="id" value="@task.Id" />
+                                            <button type="submit" class="btn btn-sm btn-danger"
+                                                    onclick="return confirm('Delete this task?')">
+                                                Delete
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            @if (!Model.Any())
+            {
+                <div class="text-center mt-5">
+                    <h4 class="text-muted">No tasks yet!</h4>
+                    <p class="text-muted">Create your first task to get started.</p>
+                    <a asp-action="Create" class="btn btn-primary">Create First Task</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateStatus(taskId, status) {
+        $.post('@Url.Action("UpdateStatus")', { id: taskId, status: status })
+            .done(function() {
+                location.reload();
+            });
+    }
+</script>
+
+@functions {
+    string GetPriorityClass(int priority)
+    {
+        return priority switch
+        {
+            1 => "badge-secondary",
+            2 => "badge-primary",
+            3 => "badge-warning",
+            4 => "badge-danger",
+            _ => "badge-secondary"
+        };
+    }
+
+    string GetPriorityText(int priority)
+    {
+        return priority switch
+        {
+            1 => "Low",
+            2 => "Medium",
+            3 => "High",
+            4 => "Critical",
+            _ => "Medium"
+        };
+    }
+}
